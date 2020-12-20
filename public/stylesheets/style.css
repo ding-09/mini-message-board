@@ -57,10 +57,11 @@ main {
   height: 100%;
   border-radius: 0.8rem;
   border: 2px solid rgb(24, 166, 213);
+  outline: none;
   cursor: pointer;
   background: white;
   color: rgb(24, 166, 213);
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bolder;
   letter-spacing: 1px;
   transition: all 0.2s ease-in-out;
