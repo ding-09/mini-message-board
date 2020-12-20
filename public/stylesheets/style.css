@@ -10,7 +10,19 @@ html {
 }
 
 body {
-  background: #ebebeb;
+  background: #f5f5f5;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 1.6rem;
 }
 
 header {
@@ -24,9 +36,43 @@ header {
 }
 
 header h1 {
-  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
-header p {
-  font-size: 1.6rem;
+main {
+  width: 70%;
+  min-height: 100vh;
+  margin: auto;
+  padding-top: 5rem;
+}
+
+.message-card {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5rem;
+  border-radius: 0.8rem;
+  padding: 3rem 4rem 2rem;
+  background: white;
+}
+
+.message-card h2 {
+  margin-bottom: 1rem;
+  color: rgb(35, 168, 213);
+}
+
+.message-card .description {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #cecece;
+  line-height: 1.5;
+  color: #5c5c5c;
+}
+
+.message-card footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+footer .username {
+  color: rgb(35, 168, 213);
 }

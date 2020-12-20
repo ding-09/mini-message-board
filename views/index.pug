@@ -4,4 +4,12 @@ block content
   header 
     h1= title
     p= "speak your mind freely"
+  main
+    each message in messages 
+      section.message-card 
+        h2= message.title
+        p.description= message.description
+        footer 
+          p.username= message.username
+          p.date= message.date
 
