@@ -5,6 +5,9 @@ block content
     h1= title
     p= "speak your mind freely"
   main
+    .button-container
+      button.compose
+        p= "got something to say?"
     each message in messages 
       section.message-card 
         h2= message.title

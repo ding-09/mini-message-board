@@ -43,7 +43,32 @@ main {
   width: 70%;
   min-height: 100vh;
   margin: auto;
-  padding-top: 5rem;
+}
+
+.button-container {
+  width: 60%;
+  height: 4rem;
+  margin: 4rem auto 5rem; 
+  text-align: center;
+}
+
+.compose {
+  width: 100%;  
+  height: 100%;
+  border-radius: 0.8rem;
+  border: 2px solid rgb(24, 166, 213);
+  cursor: pointer;
+  background: white;
+  color: rgb(24, 166, 213);
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+}
+
+.compose:hover {
+  background: rgb(24, 166, 213);
+  color: white;
 }
 
 .message-card {
