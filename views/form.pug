@@ -1,15 +1,13 @@
 extends layout 
 
 block content 
-    h1= 'title'
-    input(
-        type='text'
-        name='title'
-    )
-    input(
-        type='text'
-        name='description'
-    )
-    button(
-        type='submit'
-    )
+    header 
+        h1= 'Message Board'
+        p= 'speak your mind freely'
+    main
+        section.form-container 
+            form(method='POST' action='/new')
+                h1= 'title'
+                input(type='text')
+                input(type='text')
+                button(type='submit')

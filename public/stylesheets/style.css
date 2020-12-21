@@ -46,7 +46,7 @@ main {
 }
 
 .button-container {
-  width: 60%;
+  max-width: 70rem;
   height: 4rem;
   margin: 4rem auto 5rem; 
   text-align: center;
@@ -73,7 +73,7 @@ main {
 }
 
 .message-card {
-  width: 60%;
+  max-width: 70rem;
   margin: auto;
   margin-bottom: 5rem;
   border-radius: 0.8rem;

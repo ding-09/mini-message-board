@@ -2,12 +2,11 @@ extends layout
 
 block content
   header 
-    h1= title
-    p= "speak your mind freely"
+    h1= 'Message Board'
+    p= 'speak your mind freely'
   main
     .button-container
-      a(href="http://localhost:3000/new")
-        button.compose= "got something to say?"
+      a(href="http://localhost:3000/new"): button.compose= "got something to say?"
     each message in messages 
       section.message-card 
         h2= message.title
