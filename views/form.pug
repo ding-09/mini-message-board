@@ -7,7 +7,7 @@ block content
     main
         section.form-container 
             form(method='POST' action='/new')
-                h1= 'title'
-                input(type='text')
-                input(type='text')
-                button(type='submit')
+                input(type='text', placeholder='Title' name='title' id='title')
+                textarea(name='description' placeholder='Pineapples belong on pizza and nobody can tell me otherwise!' cols='30' )
+                input(type='text' placeholder='Username' name='username' id='username')
+                button(type='submit' id='submit-btn')= 'post'
