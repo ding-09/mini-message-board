@@ -1,6 +1,6 @@
 const moment = require('moment');
-let date = moment().startOf('hour').fromNow();
-let date2 = moment().startOf('hour' - 1).fromNow();
+let date = moment().startOf('day').fromNow();
+let date2 = moment().startOf('hour').fromNow();
 
 // default messages shown in index
 const messages = [
